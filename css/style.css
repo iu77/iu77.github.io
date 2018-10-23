@@ -7,7 +7,13 @@ body {
   margin: 2px;
   padding: 2px;
 } */
-
+.Contact-date {
+  width: 450px;
+  hight: 200px;
+  text-align: right;
+  color: darkblue;
+  float: right;
+}
 #content-wrap {
   border-color: blue;
 }
@@ -44,7 +50,7 @@ body {
 #top-menu-bar {
   text-align: center;
   color: #fff;
-  background-color: #334455;
+  background-color: rgba(0, 119, 255, 0.808);
 }
 #top-menu-bar li {
   margin: 0;
