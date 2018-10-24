@@ -14,6 +14,11 @@ body {
   color: darkblue;
   float: right;
 }
+#name {
+  text-align:center;
+  color: darkblue;
+  background-color:rgb(129, 178, 224);
+}
 #content-wrap {
   border-color: blue;
 }
@@ -42,9 +47,10 @@ body {
 }
 #my-picture {
   border-radius: 50%;
+  width="100"
 }
 #motto {
-  color: darkgreen;
+  color: darkblue;
 }
 
 #top-menu-bar {
