@@ -50,6 +50,10 @@ function getExtractFee(ammount) {
   return comision;
 }
 
+//to do home function checkExtractPermission(){
+//return true;
+
+//}
 function extractFromATM(ammount) {
   console.info("==== ==== ==== ==== ====");
   console.info("suma extrasa este: " + ammount);
@@ -64,7 +68,8 @@ function extractFromATM(ammount) {
   }
 
   funds = funds - totalExtract;
-  ATMFunds = ATMFunds - ammount;
+  // ATMFunds = ATMFunds - ammount;
+  ATMFunds -= ammount;
   console.info("Sold curent: " + funds);
   console.info("comision aplicat:" + comision);
   console.info("==== ==== ==== ==== ====");
