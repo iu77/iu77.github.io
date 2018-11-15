@@ -1,97 +1,95 @@
 <html>
+  <head>
+    <title>Ungur Ionel'cv CV</title>
+    <meta charset="UTF-8" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+  </head>
 
-<head>
-	<title>Ungur Ionel'cv CV</title>
-	<meta charset="UTF-8" />
-	<link href="css/style.css" rel="stylesheet" type="text/css">
-</head>
+  <body>
+    <div class="test" id="header">
+      <h1 style="text-align: center">CV</h1>
 
-<body>
+      <h2 id="name">Ungur Ionel</h2>
+      <div class="Contact-date">
+        <h2>Contact info :</h2>
+        <a href="https://linkedin.com/in/ungurionel"
+          >linkedin.com/in/ungurionel</a
+        >
+        <p>Email: ionelungur0225@gmail.com</p>
+        <p>Phone: +40724721507</p>
+        <p>Address: Edgar Quinet Nr.2 || Cluj-Napoca</p>
+        <p>
+          <strong>Sex:</strong> Male ||<strong>Date of birth:</strong>
+          07/01/1977 || <strong>Nationality</strong> Romanian
+        </p>
+      </div>
 
-	<div class="test" id="header">
-		<h1 style="text-align: center">CV</h1>
+      <img
+        id="my-picture"
+        src="https://media.licdn.com/dms/image/C5603AQEJL9pp2KyEBQ/profile-displayphoto-shrink_200_200/0?e=1545868800&v=beta&t=9jTbHrysmxznGXXT91_2BH2wmT_7UWh-tQu2eQZH0Kw"
+      />
+      <p id="motto">Communications Engineer</p>
+      <ul id="top-menu-bar">
+        <li><a href="#" id="home-menu">Home</a></li>
+        <li><a href="#" id="skills-menu">Skills</a></li>
+        <li><a href="#" id="languages-menu">Languages</a></li>
+      </ul>
+    </div>
 
-		<h2 id="name">Ungur Ionel</h2>
-		<div class="Contact-date">
-			<p><strong>Contact data :</strong></p>
-			<p>Email: ionelungur0225@gmail.com</p>
-			<p>Phone: +40724721507</p>
-			<p>Address: Edgar Quinet Nr.2 || Cluj-Napoca</p>
-			<p><strong>Sex:</strong> Male ||<strong>Date of birth:</strong> 07/01/1977 || <strong>Nationality</strong> Romanian</p>
-		</div>
+    <div class="test" id="content-wrap">
+      <div class="test" id="left-sidebar">
+        <div class="test" id="contact">
+          <h2>Contact</h2>
+          <p>Hire me!</p>
+          <form>
+            <label>Your email</label>
+            <input name="recruterEmail" type="email" /> <button>send</button>
+          </form>
+        </div>
+      </div>
 
-		<img id="my-picture" src="https://media.licdn.com/dms/image/C5603AQEJL9pp2KyEBQ/profile-displayphoto-shrink_200_200/0?e=1545868800&v=beta&t=9jTbHrysmxznGXXT91_2BH2wmT_7UWh-tQu2eQZH0Kw">
-		<p id="motto">Communications Engineer </p>
-		<ul id="top-menu-bar">
-			<li>
-				<a href="#" id="home-menu">Home</a>
-			</li>
-			<li>
-				<a href="#" id="skills-menu">Skills</a>
-			</li>
-			<li>
-				<a href="#" id="languages-menu">Languages</a>
-			</li>
-		</ul>
-	</div>
+      <div class="test" id="content">
+        <div class="test">
+          <div class="page-block" id="home-page">
+            <h2>Wellcome</h2>
+            <p>About me...</p>
+          </div>
 
-	<div class="test" id="content-wrap">
-		<div class="test" id="left-sidebar">
-			<div class="test" id="contact"> 
-				<h2>Contact</h2>
-				<p>Hire me!</p>
-				<form>
-					<label>Your email</label>
-					<input name="recruterEmail" type="email">
-					<button>send</button>
-				</form>
-			</div>
-		</div>
+          <div class="page-block" id="skills-page" style="display:none;">
+            <h2>Skills:</h2>
+            <ul>
+              <li class="favorite">ELECTRONICS</li>
+              <li class="favorite">ENGINEERING</li>
+              <li class="favorite">HTML</li>
+              <li class="favorite">CSS</li>
+              <li class="favorite">JS</li>
+            </ul>
+          </div>
 
-		<div class="test" id="content">
-			<div class="test">
-				<div class="page-block" id="home-page">
-					<h2>Wellcome</h2>
-					<p>About me...</p>
-				</div>
+          <div class="page-block" id="languages-page" style="display:none;">
+            <h2>Languages</h2>
+            <table border="1">
+              <tr>
+                <td><strong>Romanian</strong></td>
+                <td>Nativ</td>
+              </tr>
+              <tr>
+                <td><strong>English</strong></td>
+                <td>Good</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
 
-				<div class="page-block" id="skills-page" style="display:none;">
-					<h2>Skills:</h2>
-					<ul>
-						<li class="favorite">HTML</li>
-						<li>CSS</li>
-						<li class="favorite">JS</li>
-					</ul>
-				</div>
+    <div class="test" id="footer">
+      <a href="https://linkedin.com/in/ungurionel">linkedin</a> |
+      <a href="https://github.com/iu77">github</a>
+    </div>
 
-				<div class="page-block" id="languages-page" style="display:none;">
-						<h2>Languages</h2>
-						<table border="1">
-							<tr>
-								<td>Romanian</td>
-								<td>Nativ</td>
-							</tr>
-							<tr>
-								<td>English</td>
-								<td>Good</td>
-							</tr>
-						</table>
-					</div>
-			</div>
-		</div>
+    <script src="src/index.js"></script>
 
-		
-	</div>
-
-	<div class="test" id="footer">
-		<a href="https://linkedin.com/in/ungurionel">linkedin</a>
-		|
-		<a href="https://github.com/iu77">github</a>
-	</div>
-	
-	<script src="src/index.js"></script>
-
-	<!-- <script src="js/learn.js"></script> -->
-</body>
-
+    <!-- <script src="js/learn.js"></script> -->
+  </body>
 </html>
