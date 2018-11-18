@@ -27,56 +27,54 @@
 // schimb valutar//
 // console.info(0);
 
-var x,y,z;
-x=3;
-y=6;
-z=x+y;
-function sum(){
+var x, y, z;
+x = 3;
+y = 6;
+z = x + y;
+function sum() {
   console.info("Adunam x cu y ");
-   for (; x<y; x++){
-    console.info("Daca x>y incrementam pe x de y ori pana x=y"); 
- }
-   for (; x > y; y++){
-    console.info("daca x<y incrementam pe y de x ori pana cand x=y")
+  for (; x < y; x++) {
+    console.info("Daca x>y incrementam pe x de y ori pana x=y");
+  }
+  for (; x > y; y++) {
+    console.info("daca x<y incrementam pe y de x ori pana cand x=y");
   }
   console.info("rezultat x+y=z");
-  sum (6);
+  sum(6);
 }
 
-
-
 // function learnIterators() {
-  // function countTo(n) {
-  //   console.info("sa numaram pana la " + n);
-  //   for (var i = 1; i <= 10; i ++ ) {
-  //     console.info(i);
-  //   }
-  //      var i = 1;
-  //      for (var i=1 ; i <= n; n=9) {
-  //        console.info(i);
-  //        i=i+1;
-  //        i++;
-  //     }
-  //    }
+// function countTo(n) {
+//   console.info("sa numaram pana la " + n);
+//   for (var i = 1; i <= 10; i ++ ) {
+//     console.info(i);
+//   }
+//      var i = 1;
+//      for (var i=1 ; i <= n; n=9) {
+//        console.info(i);
+//        i=i+1;
+//        i++;
+//     }
+//    }
 
-  // var 
+// var
 
-  // function countDown(n) {
-  //   var i = n;
-  //   for (var i=10; i > 0;) {
-  //     console.info(i);
-  //     i--;
-  //   }
+// function countDown(n) {
+//   var i = n;
+//   for (var i=10; i > 0;) {
+//     console.info(i);
+//     i--;
+//   }
 
-  //   var i = n;
-  //   while (i > 0) {
-  //     console.info(i);
-  //     i--;
-  //   }
-  //   countDown(10);
-  //   countTo(10);
-  // }
-  // learnIterators();
+//   var i = n;
+//   while (i > 0) {
+//     console.info(i);
+//     i--;
+//   }
+//   countDown(10);
+//   countTo(10);
+// }
+// learnIterators();
 
 // var cursEUR = 4.5;
 // var myEur = 100;
@@ -124,5 +122,4 @@ function sum(){
 // extractFromATM(100);
 // extractFromATM(0);
 // }
-  }
 // }
